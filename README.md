@@ -18,12 +18,12 @@ Projeto redes - GNS3
 
   ## Divisão e Justificativa:
 
-  - Vendas: 10.100.0.0/22   (1022 hosts possíveis no total)
-  - Inovação: 10.100.4.0/23 (510
-  - Recursos Humanos: 10.100.6.0/25 (126
-  - Gerência: 10.100.6.128/25
-  - Helpdesk: 10.100.7.0/24 (254
-  - TI: 10.100.8.0/22 (1022
+  - Vendas: 10.100.0.0/22   (1022 endereços possíveis no total)
+  - Inovação: 10.100.4.0/23 (510 endereços)
+  - Recursos Humanos: 10.100.6.0/25 (126 endereços)
+  - Gerência: 10.100.6.128/25 (126 endereços)
+  - Helpdesk: 10.100.7.0/24 (254 endereços)
+  - TI: 10.100.8.0/22 (1022 endereços)
  
   Justificativa: Foram priorizadas as sub-redes de Vendas e TI. No caso de Vendas, esta é a área que já demanda um maior número hosts (talvez, em um cenário de expansão futura, esta área demande mais IP's que as outras). No caso de TI, já há apontamento de possibilidade de expansão futura com destaque para a requisição de não se mudar IPs já atribuídos).
 
