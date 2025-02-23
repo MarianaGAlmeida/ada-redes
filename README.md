@@ -26,12 +26,6 @@ Projeto redes - GNS3
 
 
 
-![image](https://github.com/user-attachments/assets/5b689615-0619-4a97-9ccc-fe0c2d3f9b5f)
-
-
-![image](https://github.com/user-attachments/assets/a41bb658-2a39-4c93-afe1-396965b0010b)
-
-
 
 
 
