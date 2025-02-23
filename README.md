@@ -3,7 +3,6 @@ Projeto redes - GNS3
 
 ![image](https://github.com/user-attachments/assets/a8dca077-b7c2-4f6b-bbc8-74bc9d6b8fe5)
 
-![image](https://github.com/user-attachments/assets/250f2186-07a5-46bf-ac8e-9e0ca4c7ca1e)
 
 ### 1. Divisão da Rede Principal (Subnetting):
 
@@ -15,10 +14,25 @@ Projeto redes - GNS3
     - **Inovação:** 50 hosts *(expansão futura para 129 no próximo ano)*
     - **Vendas:** 300 hosts
     - **Gerência:** 50 hosts
+ 
+
+  ##Divisão e Justificativa:
+
+  - Vendas: 10.100.0.0/22   (1022 hosts possíveis no total)
+  - Inovação: 10.100.4.0/23 (510
+  - Recursos Humanos: 10.100.6.0/25 (126
+  - Gerência: 10.100.6.128/25
+  - Helpdesk: 10.100.7.0/24 (254
+  - TI: 10.100.8.0/22 (1022
+ 
+  Justificativa: Foram priorizadas as sub-redes de Vendas e TI. No caso de Vendas, esta é a área que já demanda um maior número hosts (talvez, em um cenário de expansão futura, esta área demande mais IP's que as outras). No caso de TI, já há apontamento de possibilidade de expansão futura com destaque para a requisição de não se mudar IPs já atribuídos).
 
 
 
 ![IMG-1734](https://github.com/user-attachments/assets/79d32619-1eb0-4afe-850d-b6a649142f80)
+
+
+![image](https://github.com/user-attachments/assets/250f2186-07a5-46bf-ac8e-9e0ca4c7ca1e)
 
 ![image](https://github.com/user-attachments/assets/9dcdb528-1758-42cd-bba5-5500ba609a41)
 
