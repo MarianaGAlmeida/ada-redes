@@ -1,13 +1,20 @@
 # ada-redes
 Projeto redes - GNS3
-(Obs: ).
-
-
-
 
 ![image](https://github.com/user-attachments/assets/a8dca077-b7c2-4f6b-bbc8-74bc9d6b8fe5)
 
 ![image](https://github.com/user-attachments/assets/250f2186-07a5-46bf-ac8e-9e0ca4c7ca1e)
+
+### 1. Divisão da Rede Principal (Subnetting):
+
+- **Rede principal fornecida:** `10.100.0.0/20` (4096 endereços)
+- **Sub-redes a serem criadas para cada departamento:**
+    - **TI:** 100 hosts *(com possibilidade de expansão futura sem mudar IPs já atribuídos)*
+    - **Helpdesk:** 120 hosts
+    - **Recursos Humanos (RH):** 40 hosts
+    - **Inovação:** 50 hosts *(expansão futura para 129 no próximo ano)*
+    - **Vendas:** 300 hosts
+    - **Gerência:** 50 hosts
 
 
 
